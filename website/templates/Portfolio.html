@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Portfolio{% endblock%}
+
+{% block PActiv %}nav-link activ{% endblock%}
+
+{% block content %}
+<h1>Projekte:</h1>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card text-white bg-dark mb-3" >
+      <img src="{{ url_for('static', filename='hack.png')}}" class="card-img-top" alt="Hacker-Chaos">
+      <div class="card-body">
+        <h5 class="card-title">Einfacher Roboter Arm: Jarvis</h5>
+        <p class="card-text">Wer hat als kind nicht von einem Eigenen Roboter Geträumt?
+          Ich Auf Jeden Fall...also war das erste Projekt welches ich mit meinem 3D Drucker umgestezt hsabe ein Roboterarm.</p>
+        <a href="https://github.com/flowlow969/Jarvis" class="btn btn-primary">Zum Git GitHub Repo</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card text-white bg-dark mb-3" >
+      <img src="{{ url_for('static', filename='hack.png')}}" class="card-img-top" alt="Hacker-Chaos">
+      <div class="card-body">
+        <h5 class="card-title">Dezentralle Raumgasüberwachung: AIOLOS</h5>
+        <p class="card-text">Im Rahmen des Dräger Hackerthons habe ich die Möglichkeit bekommen, mit andern Studierenden eine dezentrale Raumgasüberwachung zu entwickeln. Dieses System basiert auf ESP-32 Boards, die mittels eines WiFi-Meshes die Daten austauschen und auf einem Raspberry Pi gerendert werden.</p>
+        <a href="https://github.com/flowlow969/AIOLOS" class="btn btn-primary">Zum Git GitHub Repo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card text-white bg-dark mb-3" >
+      <img src="{{ url_for('static', filename='hack.png')}}" class="card-img-top" alt="Hacker-Chaos">
+      <div class="card-body">
+        <h5 class="card-title">Opperiern mit Schablone</h5>
+        <p class="card-text">Im Rahmen des Dräger Hackerthons habe ich die Möglichkeit bekommen, mit andern Studierenden eine dezentrale Raumgasüberwachung zu entwickeln. Dieses System basiert auf ESP-32 Boards, die mittels eines WiFi-Meshes die Daten austauschen und auf einem Raspberry Pi gerendert werden.</p>
+        <a href="https://github.com/flowlow969/AIOLOS" class="btn btn-primary">Zum Git GitHub Repo</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card text-white bg-dark mb-3" >
+      <img src="{{ url_for('static', filename='hack.png')}}" class="card-img-top" alt="Hacker-Chaos">
+      <div class="card-body">
+        <h5 class="card-title">Dezentralle Raumgasüberwachung: AIOLOS</h5>
+        <p class="card-text">Im Rahmen des Dräger Hackerthons habe ich die Möglichkeit bekommen, mit andern Studierenden eine dezentrale Raumgasüberwachung zu entwickeln. Dieses System basiert auf ESP-32 Boards, die mittels eines WiFi-Meshes die Daten austauschen und auf einem Raspberry Pi gerendert werden.</p>
+        <a href="https://github.com/flowlow969/AIOLOS" class="btn btn-primary">Zum Git GitHub Repo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

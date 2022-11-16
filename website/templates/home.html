@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock%}
+{% block HomeActiv %}nav-link activ{% endblock%}
+{% block bg %}
+background-image: url('{{ url_for('static', filename='bg.png')}}')
+
+{% endblock %}
+
+{% block content %}
+<h1 class="text-muted">Wilkommen</h1>
+{% endblock %}
